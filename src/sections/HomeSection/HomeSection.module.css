@@ -1,0 +1,129 @@
+.homeSection {
+  background-image: url(/src/assets/img/Mask\ group.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgba(239, 248, 255, 1);
+  
+  width: 100vw;
+  padding: calc((70 / 1366) * 100vw ) 0;
+}
+.homeContent {
+    padding: calc((32 / 1366) * 100vw ) calc((70 / 1366) * 100vw );
+  h1 {
+    text-align: start;
+    font-size:  clamp(2.1875rem,4.39vw, 3.75rem);;
+  }
+  p {
+    text-align: start;
+    color: var(--color-secondary);
+    font-size:  clamp(0.875rem,1.17vw, 1rem);;
+   
+  }
+}
+.homeBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: calc((30 / 1366) * 100vw );
+  width: calc((868 / 1366) * 100vw );
+  height: calc((100 / 1366) * 100vw );
+  background-color:rgba(255, 255, 255, 0.6) ;
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+  padding: 0 calc((58 / 1366) * 100vw );
+  margin-top: calc((50 / 1366) * 100vw );
+  
+  .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+width: calc((59.9/ 1366) * 100vw );
+height: calc((60 / 1366) * 100vw );
+/* opacity: 5%; */
+background-color: rgb(2, 85, 149,0.05);
+img{
+    width: 50%;
+}
+  }
+  h4{
+font-size: clamp(0.6rem,1.17vw,1rem);
+white-space:  nowrap;
+  }
+  p{
+    font-size: clamp(0.6rem,1.17vw,1rem);
+    white-space:  nowrap;
+  }
+}
+.dflex{
+    width: calc((868 / 1366) * 100vw );
+display: flex;
+gap: calc((20 / 1366) * 100vw );
+text-align: start;
+/* justify-content: space-between; */
+
+/* width: max-content; */
+p{
+    margin-top: calc((10 / 1366) * 100vw );
+}
+}
+
+@media (min-width: 481px) and (max-width: 681px) {
+    .homeBar {
+        width: calc((1090 / 1366) * 100vw );
+       
+    }
+    .homeSection {
+      padding: calc((40 / 360) * 100vw ) 0;
+        background-position: 104px 0px;
+
+    }
+  }
+  @media (min-width: 360px) and (max-width: 480px) {
+    .homeSection {
+        height: 95vh;
+        background-position:  center bottom ;
+        background-size: cover;
+        padding: calc((40 / 360) * 100vw ) 0;
+    }
+    .homeContent {
+        padding: 0;
+    }
+    .textContent{
+        padding: calc((32 / 1366) * 100vw ) calc((70 / 1366) * 100vw );
+    }
+    .homeBar {
+        width: 100%;
+        display: block;
+        height: max-content;
+        padding: calc((30 / 1366) * 100vw ) calc((24 / 1366) * 100vw );
+        /* gap: calc((24 / 1366) * 100vw ); */
+        border-radius: 0;
+        margin-top: 35px;
+        h4{
+            font-size: 1rem;
+          
+              }
+              p{
+                font-size: 1rem;
+              
+              }
+    }
+    .dflex{
+                gap: calc((34 / 1366) * 100vw );
+                margin-bottom: 20px;
+
+    }
+    
+    .circle{
+       
+    width: 60px !important; 
+    height: 60px !important;
+    /* opacity: 5%; */
+  
+    img{
+        width: 50% !important;
+    }
+      }
+  }

@@ -1,0 +1,38 @@
+.find{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgba(255, 255, 255, 1)    ;
+    background-image: url(/public/img/Rectangle\ 4102.png);
+   position: relative;
+    width:100vw;
+    height: 380px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    h2{
+       
+font-size: clamp(0.875rem,5.12vw,4.375rem);;
+
+    }
+    p{
+        font-size: clamp(0.93rem,2.19vw,1.875rem);;
+        
+    }
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.overlay{
+    position: absolute;
+    width: calc((1366 / 1366) * 100vw );
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.5);z-index: 1;
+    z-index: 1;
+}
+

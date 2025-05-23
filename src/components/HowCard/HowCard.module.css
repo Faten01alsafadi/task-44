@@ -1,0 +1,69 @@
+.howCard{
+    width: calc((380 / 1366) * 100vw );
+    height:255px ;
+    margin-top: calc((56 / 1366) * 100vw );
+    padding: calc((30 / 1366) * 100vw ) calc((20 / 1366) * 100vw );
+    border-radius: 15px;
+    h4{
+        margin-top: calc((20 / 1366) * 100vw );
+        margin-bottom: calc((10 / 1366) * 100vw );
+        font-size:    clamp(0.9rem,2.855vw,1.375rem);
+        white-space: nowrap;
+        
+    }
+    p{
+        font-size:  clamp(0.1rem,2.855vw,0.875rem)
+    }
+    img{
+        width: calc((42.11 / 1366) * 100vw )
+        ;
+    }
+}
+.special{
+width: calc((380 / 1366) * 100vw );
+    height:255px ;
+    margin-top: calc((56 / 1366) * 100vw );
+    padding: calc((30 / 1366) * 100vw ) calc((20 / 1366) * 100vw );
+    background-color: var(--color-primary);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 15px;    
+    h4{
+        margin-top: calc((20 / 1366) * 100vw );
+        margin-bottom: calc((10 / 1366) * 100vw );
+        font-size:    clamp(0.9rem,2.855vw,1.375rem);
+        
+    }
+    p{
+        color: rgba(255, 255, 255, 1) !important;
+        font-size:  clamp(0.1rem,2.855vw,0.875rem) !important;
+    }
+    img{
+        width: calc((42.11 / 1366) * 100vw )
+        ;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 700px) {
+    .howCard{
+        width: auto;
+        height: 218px;
+        margin-bottom: 20px;
+        img{
+            width: calc((100.11 / 1366) * 100vw )
+            ;
+        }
+     
+    }
+    .special{
+        width: auto;
+        height: 218px;
+        margin-bottom: 20px;
+
+        img{
+            width: calc((100.11 / 1366) * 100vw )
+            ;
+        }
+       p{
+        font-size: 0.93rem !important;
+       }
+    }
+}

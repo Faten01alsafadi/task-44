@@ -1,0 +1,17 @@
+.card{
+    width: calc((387.801 / 1366) * 100vw );
+    img{
+        width: inherit;
+     
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+    .card{
+        width: calc((320/ 360) * 100vw );
+        img{
+            width: inherit;
+         
+        }
+    }
+}

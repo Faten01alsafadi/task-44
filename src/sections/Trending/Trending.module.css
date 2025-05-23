@@ -1,0 +1,29 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: calc((25 / 1366) * 100vw );
+    margin-top: calc((56 / 1366) * 100vw ) ;
+
+} 
+.content{
+
+}
+.trending{
+    text-align: start;
+    padding: calc((94 / 1366) * 100vw ) calc((70 / 1366) * 100vw );
+    h2{
+    font-size:  clamp(1.875rem,2.85vw,2.43rem);;
+    }
+    p{
+        font-size:  0.93rem;
+color: var(--color-secondary);
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 600px) {
+    .cards{
+        
+        grid-template-columns: repeat(1,1fr);
+       
+    
+    } 
+}

@@ -1,0 +1,15 @@
+calc((30 / 1366) * 100vw )
+ clamp(1rem,1vw,2rem);
+=
+n
+N
+b
+B
+  {props.cards.map((card,index)=>(
+
+          )
+          )}
+                 <div className={` ${isOpen ? styles.open : ''}`}>
+                 @media screen and (min-width: 360px) and (max-width: 600px) {
+
+}
