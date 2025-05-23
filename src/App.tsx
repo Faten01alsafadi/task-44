@@ -71,7 +71,7 @@ function App() {
         p="Lorem ipsum dolor sit amet, consectetur adipiscing eli"
         cards={[
           {
-            img: "/public/img/Rectangle 50(1).png",
+            img: "/img/Rectangle 50(1).png",
             h4: "$300000",
             span: "Luxury Apartment in California",
             p: "1901 Thornridge Cir. Shiloh, Hawaii 81063",
